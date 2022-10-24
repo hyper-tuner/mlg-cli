@@ -1,0 +1,19 @@
+[package]
+name = "mlg-cli"
+version = "0.1.0"
+authors = ["Piotr Rogowski <piotr.rogowski0@gmail.com>"]
+edition = "2021"
+
+[[bin]]
+name = "mlg"
+path = "src/main.rs"
+
+[profile.release]
+debug = false
+
+[dependencies]
+clap = { version = "4.0.18", features = ["derive"] }
+hashbrown = "0.12.3"
+serde = { version = "1.0.147", features = ["derive"] }
+serde_json = "1.0.87"
+csv = "1.1.6"
