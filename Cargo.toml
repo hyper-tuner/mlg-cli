@@ -13,7 +13,7 @@ debug = false
 
 [dependencies]
 clap = { version = "4.0.18", features = ["derive"] }
-hashbrown = "0.12.3"
+hashbrown = "0.13.1"
 serde = { version = "1.0.147", features = ["derive"] }
 serde_json = "1.0.87"
 csv = "1.1.6"
